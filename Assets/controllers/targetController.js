@@ -18,6 +18,8 @@ function OnTriggerEnter(otherObject:Collider)
 	GUIscript.score+=100;
 	 renderer.sharedMaterial = materials[1];
 
+//thease are the levels of the game the number in the brackets are the levels
+
 		if(Application.loadedLevel==1)
 		{
 			
