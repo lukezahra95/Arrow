@@ -17,7 +17,8 @@ function OnGUI(){
 	xpos = Camera.main.WorldToScreenPoint(Vector3(0,0,0)).x;
 	ypos = Camera.main.WorldToScreenPoint(Vector3(0,0,0)).y;
 	
-	if(GUI.Button(Rect(475, 300, 120, 30), "Play")){
+	//changed the text to play game
+	if(GUI.Button(Rect(475, 300, 120, 30), "Play Game")){
 
 		GUIscript.score=0;
 		Application.LoadLevel(1);
