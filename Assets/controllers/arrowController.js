@@ -21,7 +21,8 @@ function OnCollisionEnter(object:Collision)
 {
 	if(object.gameObject.tag=="floor")
 	{
-		yield WaitForSeconds(3);
+	//changed the seconds to 4 instead of 3
+		yield WaitForSeconds(4);
 		StartCoroutine("destroyArrow", 5);
 		StopCoroutine("destroyArrow");
 	}
