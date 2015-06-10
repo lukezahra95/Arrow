@@ -21,7 +21,8 @@ function OnGUI(){
 	if(GUI.Button(Rect(475, 300, 120, 30), "Play Game")){
 
 		GUIscript.score=0;
-		Application.LoadLevel(1);
+		//the level is suppose to be 1
+		Application.LoadLevel(0);
 	}
 	//this is the exit button when it is pressed it will quit the game
 	if(GUI.Button(Rect(475, 350, 120, 30), "Exit")){
