@@ -19,6 +19,7 @@ mousePos = Input.mousePosition;
 		var mouseWorldPos = Camera.main.ScreenToWorldPoint (mousePos);
 
 		//4. look at the position of the mouse, rotating in the Z axis
+		//new commit
 		t.transform.LookAt (mouseWorldPos,Vector3.forward);
 
 		//6. declare shoot angle variable
