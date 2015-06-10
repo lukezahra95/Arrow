@@ -22,7 +22,7 @@ function OnGUI(){
 		GUIscript.score=0;
 		Application.LoadLevel(1);
 	}
-	
+	//this is the exit button when it is pressed it will quit the game
 	if(GUI.Button(Rect(475, 350, 120, 30), "Exit")){
 
 		Application.Quit();
