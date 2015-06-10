@@ -2,7 +2,7 @@ var materials : Material[];
 var colourChange = true;
 
 function Start () {
-gameObject.rigidbody.AddRelativeForce(Vector3.up * 1 * 50);
+gameObject.rigidbody.AddRelativeForce(Vector3.up * 1 * 40);
 StartCoroutine("ballChange");
 }
 
@@ -32,10 +32,10 @@ function ballChange()
 {
 	while(colourChange == true){
 		renderer.sharedMaterial = materials[0];
-		yield WaitForSeconds(3);
+		yield WaitForSeconds(4);
 		renderer.sharedMaterial = materials[1];
-		yield WaitForSeconds(3);
+		yield WaitForSeconds(4);
 		renderer.sharedMaterial = materials[2];
-		yield WaitForSeconds(3);
+		yield WaitForSeconds(4);
 	}
 }
