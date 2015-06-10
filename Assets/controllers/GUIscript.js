@@ -38,6 +38,6 @@ function OnGUI()
 	GUI.Label(Rect(170,40,200,50),"Arrows Left: " + (arrows));
 	GUI.Label(Rect(300,40,200,50),"Score: " + score);
 	GUI.Label(Rect(400,40,200,50),"Force: " + pointController.force);
-	GUI.Label(Rect(500,40,200,50),"Bow Angle: " + armController.angle);
+	GUI.Label(Rect(500,40,200,50),"Angle: " + armController.angle);
 	
 }
