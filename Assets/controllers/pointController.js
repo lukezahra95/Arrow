@@ -7,7 +7,7 @@ function Start () {
 
 function Update()
 {
-
+	//when the mouse button is pressed
 	if(Input.GetMouseButton(0))
 	{
 	force += Time.deltaTime;
