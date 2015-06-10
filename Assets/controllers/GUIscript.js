@@ -32,12 +32,12 @@ function OnGUI()
 {
 
 	GUI.skin = skin;
-	GUI.color = Color.white;
+	GUI.color = Color.black;
 	GUI.Label(Rect(5,0,200,50),"Press Esc to return to Menu");
 	GUI.Label(Rect(70,40,200,50),"Level: " + (level+1));
 	GUI.Label(Rect(170,40,200,50),"Arrows Left: " + (arrows));
 	GUI.Label(Rect(300,40,200,50),"Score: " + score);
 	GUI.Label(Rect(400,40,200,50),"Force: " + pointController.force);
-	GUI.Label(Rect(500,40,200,50),"Angle: " + armController.angle);
+	GUI.Label(Rect(500,40,200,50),"Bow Angle: " + armController.angle);
 	
 }
